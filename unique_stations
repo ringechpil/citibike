@@ -1,5 +1,11 @@
-SELECT 
+#TASK 1.1:  What is the unique number of stations in the dataset?
 
-count(*) as station_count 
+SELECT
+
+count(*) as station_count
 
 FROM `bigquery-public-data.new_york_citibike.citibike_stations` LIMIT 1000
+
+
+----------------------------------------------------------------------
+
